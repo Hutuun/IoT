@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="io.sloeber.core.toolChain.release.962023213">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.962023213" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.962023213" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="io.sloeber.core.toolChain.release.962023213.2010881068" name="/" resourcePath="">
+						<toolChain id="io.sloeber.core.toolChain.release.1122308413" name="Arduino Toolchain (Sloeber edition)" superClass="io.sloeber.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.683414141" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<builder buildPath="${workspace_loc:/TTN_Project_HONNET_NGUYEN}/Release" id="io.sloeber.sketch.builder.1440928693" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.1191291976" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.cpp.sketch.option.incpath.415055132" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/libraries/LoRaWan}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/libraries/Adafruit_CCS811-master}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/libraries/TSL2561-Arduino-Library-master}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/libraries/Wire}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.1235521464" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.1569105819" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.c.sketch.option.incpath.482781371" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/libraries/LoRaWan}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/libraries/Adafruit_CCS811-master}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/libraries/TSL2561-Arduino-Library-master}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/libraries/Wire}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.2073796841" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.621648408" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.asm.sketch.option.incpath.253135651" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/libraries/LoRaWan}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/libraries/Adafruit_CCS811-master}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/libraries/TSL2561-Arduino-Library-master}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TTN_Project_HONNET_NGUYEN/libraries/Wire}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.1887496193" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.504212148" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
+							<tool id="io.sloeber.tool.combine.1788435698" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
+							<tool id="io.sloeber.tool.objcopy.eep.2072270768" name="Arduino tool objcopy command" superClass="io.sloeber.tool.objcopy.eep"/>
+							<tool id="io.sloeber.tool.size.459518471" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="libraries/TSL2561-Arduino-Library-master/.github|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries/**/._*|libraries/?*/utility/*/*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="TTN_Project_HONNET_NGUYEN.null.701052627" name="TTN_Project_HONNET_NGUYEN"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

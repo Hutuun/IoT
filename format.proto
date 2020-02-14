@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package polytech;
+
+message Uplink {
+	string dataLight 	= 1;
+	string dataGas 	= 2;
+	string sender 	= 3;
+	uint32 tmst		= 4;
+	
+}
